@@ -23,7 +23,7 @@ def processed_FileData(filename_daw):
     except FileNotFoundError:
         print("\nFile not found. Maaari mo bang tignan kung tama ang filename and try again.")
     except ValueError:
-        print("\nInvalid and data sa file. Please ensure the file contains comma-separated numbers. ")
+        print("\nInvalid ang data sa file. Please ensure the file contains comma-separated numbers. ")
 
 def main():
     filename_daw = "numbers.txt"
