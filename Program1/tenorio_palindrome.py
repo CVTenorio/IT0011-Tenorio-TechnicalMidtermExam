@@ -27,8 +27,7 @@ def processed_FileData(filename_daw):
 
 def inputKa_numero():
     try:
-        print("Hello sayo kaibigan!")
-        num = list(map(int, input("\nMaglagay ka nang limang numero na nakahiwalay gamit ang commas: ").split(',')))
+        num = list(map(int, input("Hello Sayo Kaibigan ko!\n""Maglagay ka nang limang numero na nakahiwalay gamit ang commas: ").split(',')))
         if len(num) !=5:
             print("\nMaglagay ka nang sakto na limang numero.")
             return
